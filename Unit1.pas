@@ -13,6 +13,7 @@ type
     Button1: TButton;
     Memo1: TMemo;
     Button2: TButton;
+    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
@@ -34,6 +35,7 @@ procedure TForm1.Button1Click(Sender: TObject);
 
   Begin
   S:= Edit1.Text;
+  Label1.Text := S;
 
   End;
 
