@@ -14,9 +14,11 @@ type
     Memo1: TMemo;
     Button2: TButton;
     Label1: TLabel;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
 
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,11 +27,14 @@ type
 
 var
   Form1: TForm1;
+
   S: String;
 
 implementation
 
 {$R *.fmx}
+
+uses Unit2;
 
 procedure TForm1.Button1Click(Sender: TObject);
 
@@ -48,5 +53,10 @@ var
     for I := 0 to 10 do
     Memo1.Text := S;
   end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+     Form2.Show;
+end;
 
 end.

@@ -50,6 +50,7 @@ object Form1: TForm1
     Position.X = 224.000000000000000000
     Position.Y = 48.000000000000000000
     Text = 'Label1'
+<<<<<<< HEAD
     TabOrder = 5
   end
   object RadioButton1: TRadioButton
@@ -57,5 +58,15 @@ object Form1: TForm1
     Position.Y = 128.000000000000000000
     TabOrder = 7
     Text = 'RadioButton1'
+=======
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Position.X = 232.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 6
+    Text = 'Button3'
+    OnClick = Button3Click
+>>>>>>> new_form
   end
 end
