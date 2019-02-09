@@ -52,4 +52,10 @@ object Form1: TForm1
     Text = 'Label1'
     TabOrder = 5
   end
+  object RadioButton1: TRadioButton
+    Position.X = 352.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 7
+    Text = 'RadioButton1'
+  end
 end

@@ -15,6 +15,7 @@ type
     Button2: TButton;
     Label1: TLabel;
     procedure Button1Click(Sender: TObject);
+
     procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
